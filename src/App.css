@@ -1,0 +1,65 @@
+:root{
+  --colorNav: rgb(33, 39, 33);
+  --celeste: rgb(8, 87, 195);
+  --blanco: whitesmoke;
+  --colorBody: slategray;
+  --amarillo: #ffa400;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--blanco) !important;
+  color: var(--colorBody) !important;
+}
+
+
+.text-blue{
+  color: var(--celeste);
+}
+
+.text-bright{
+  color: var(--celeste);
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--colorNav);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--colorNav) !important;
+}
+
+.btn-black:hover{
+  background: var(--colorNav) !important;
+  color: var(--blanco) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--amarillo);
+}
+
+.footer{
+  background: var(--colorNav);
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.footer img{
+  max-height: 1em;
+  margin: 1em;
+}
+
+#btn-tienda{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--colorNav);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--colorNav) !important;
+}
+
