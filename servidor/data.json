@@ -2,7 +2,7 @@
     "catalogo": [
         {
             "_id": "1",
-            "name": "Slim fit jeans",
+            "name": "Slim fit jeans!",
             "image": "/images/jean.jpg",
             "price": 1790,
             "brand": "Owen",
